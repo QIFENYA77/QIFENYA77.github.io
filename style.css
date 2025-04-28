@@ -1,0 +1,85 @@
+/* General styles for body */
+body {
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333333; /* Dark text color */
+    font-family: 'Roboto', sans-serif; /* Custom font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Titles */
+h1, h2, h3 {
+    color: #4A90E2; /* Blue for headings */
+}
+
+/* Links */
+a {
+    color: #FF6F61; /* Coral color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF4500; /* Orange color on hover */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333333; /* Dark background for navigation */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #fff; /* White text for navigation */
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #FF6F61; /* Coral color on hover */
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Button styles */
+button {
+    font-size: 16px;
+    background-color: #FF6F61; /* Coral color for buttons */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4500; /* Orange color on hover */
+}
+
+button i {
+    margin-right: 10px;
+}
+
+/* Resize images */
+img {
+    width: 100%; /* Make images responsive */
+    max-width: 600px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Section Backgrounds */
+section {
+    background-color: #E3
